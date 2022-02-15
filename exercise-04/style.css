@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  font-size: 3.68em;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.68em;
+}
+
+.pullquote {
+  color: #d3d3d3;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1.68em;
+}
