@@ -9,6 +9,20 @@ body {
   height: 100%;
 }
 
+.container {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 h1 {
   font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
