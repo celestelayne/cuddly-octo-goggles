@@ -10,17 +10,7 @@ body {
 }
 
 .container {
-  display: flex;
-}
 
-.row {
-  display: flex;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
 }
 
 h1 {
