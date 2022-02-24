@@ -1,1 +1,1 @@
-![This is an image](assets/house-or-museum-image.png)
+![This is an image](../assets/house-or-museum-image.png)
