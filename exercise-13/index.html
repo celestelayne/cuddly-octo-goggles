@@ -4,20 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Names</title>
+  <title>Sort Flowers</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- search bar -->
-  <div>
-    <form class="form">
-      <input type="text">
-    </form>
-  </div>
-
-  <!-- rendered the names -->
   <div class="container">
-    <ul></ul>
+    <div class="filters">
+      <button class="filter-btn" data-filter="ascending">Ascending</button>
+      <button class="filter-btn" data-filter="descending">Descending</button>
+    </div>
+    <div class="list">
+      <h2>Flowers</h2>
+      <ul></ul>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>

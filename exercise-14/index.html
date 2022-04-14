@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Map Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <map name="games_map" id="games_map">
+      <area id="area_01" class="play_station" href="#play_station" shape="circle" coords="70,70,40" data-maphilight='{"stroke":false,"fillColor":"ff0000","fillOpacity":0.6}'>
+      <area id="area_02" class="game_boy" href="#game_boy" shape="circle" coords="133,185,40" data-maphilight='{"stroke":false,"fillColor":"ff0000","fillOpacity":0.6}'>
+      <area id="area_03" class="screen" coords="320,235,655,425" shape="rect" href="#screen" data-maphilight='{"strokeColor":"FFFFFF", "strokeWidth":5, "fillColor":"FF0000","fillOpacity":0.4}'>
+    </map>
+  
+    <figure>
+      <img src="https://drive.google.com/uc?id=1KPRlrlpHSZKOceSLrmDOUXBClYdEx6cG" alt="" usemap="#games_map">
+      <figcaption>Image Map</figcaption>
+    </figure>
+  
+    <div>
+      <h3 id="play_station">Play Station</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis, alias quos explicabo nulla, ab et ut nobis iure iste voluptate voluptates cum eos accusantium consequuntur labore ratione id officia.</p>
+      <h3 id="game_boy">Game Boy</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis, alias quos explicabo nulla, ab et ut nobis iure iste voluptate voluptates cum eos accusantium consequuntur labore ratione id officia.</p>
+    </div>
+
+    <div class="modal-background">
+      <div class="modal-content">
+        <h3>Hi, I'm a Modal</h3>
+        <p>Use me for content, photos, forms, etc.</p>
+        <button id="close">Close</button>
+      </div>
+    </div>
+  
+  </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.2/jquery.maphilight.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

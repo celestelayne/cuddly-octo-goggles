@@ -4,24 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Filter Flowers</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     
-    <div class="filters">
+    <header class="filters">
       <h2>Filters</h2>
-      <button class="filter-btn">Yellow</button>
-      <button class="filter-btn">Red</button>
-      <button class="filter-btn">Blue</button>
-      <button class="filter-btn">All</button>
-    </div>
+      <button class="filter-btn" data-filter="yellow">Yellow</button>
+      <button class="filter-btn" data-filter="red">Red</button>
+      <button class="filter-btn" data-filter="blue">Blue</button>
+      <button class="filter-btn active" data-filter="all">All</button>
+    </header>
 
-    <div class="list">
+    <main class="list">
       <h2>Flowers</h2>
       <ul></ul>
-    </div>
+    </main>
+
+    <footer>
+      <p>Made with &#10084; in New York City.</p>
+    </footer>
   </div>
   <script src="script.js"></script>
 </body>

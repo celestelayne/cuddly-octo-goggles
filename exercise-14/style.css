@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  padding: 40px 20px;
+  color: #444;
+  background-color: white;
+  width: 60%;
+}
+
+/* area {
+  border: 4px solid white;
+}
+
+area.play_station {
+  background: orange;
+  z-index: 10;
+}
+
+area.game_boy {
+  background: green;
+}
+
+:target {
+  color: lightyellow;
+  background: indianred;
+} */
