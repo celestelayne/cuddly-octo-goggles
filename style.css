@@ -1,5 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
-  background-color: lemonchiffon;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background: 
+  /* linear-gradient(
+    rgba(121, 221, 242, 0.45), 
+    rgba(121, 221, 242, 0.45)
+  ), */
+  url('./assets/Avery-Hall-Ofer-Wolberger.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
-  color: tomato;
+  color: rgb(17, 52, 105);
+  padding: 30px;
+}
+
+.flex-container {
+  height: 100%;
+  display: flex;
+  background: rgba(121, 221, 242, 0.25);
+}
+
+.column {
+  height: 100vh;
+  width: 50%;
+  color: #F4F4F4;
+}
+
+.top {
+  font-size: 2em;
+  padding: 10%;
+}
+
+.bottom h1 {
+  font-size: 6em;
+  padding: 10%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.68;
+}
+
+li a {
+  color: #F4F4F4;
+  text-decoration: none;
+}
+
+.right .title {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+  .top {
+    font-size: 1em;
+  }
+  .bottom h1 {
+    font-size: 3em;
+  }
 }
